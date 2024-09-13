@@ -1,4 +1,4 @@
-最近一打开 VSCode，电脑的 CPU 占用就会飙升，风扇也一直在响。我查了很多网上的资料，比如修改 search.followSymlinks 的值、调整 files.exclude 等等，但都没有效果。
+最近一打开 VSCode，电脑的 CPU 占用就会飙升，风扇也一直在响。我查了很多网上的资料，比如修改 search.followSymlinks 的值、禁用 git.autoFetch、调整 files.exclude 等等，但都没有效果。
 
 通常情况下，CPU 过高占用是某个插件引起的，但手动逐个排查插件比较麻烦。不过，VSCode 提供了一个自动排查工具。你只需要按下 Cmd/Ctrl + Shift + P 打开命令面板，输入 Start Extension Bisect，然后按回车，根据提示操作，就可以找出导致问题的插件。
 
